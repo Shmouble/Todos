@@ -1,0 +1,17 @@
+{
+    "name": "st/oop",
+    "authors": [
+        {
+            "name": "John Smith",
+            "email": "john@example.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Step\\": "app/"
+        }
+    }
+}
